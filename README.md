@@ -1,4 +1,4 @@
-# Secure Packer (檔案打包加密工具)
+# Simple Encryptioner (簡易檔案加密)
 
 **Secure Packer** 是一個基於 Python 開發的檔案安全工具，集成了 **打包 (Tar)**、**壓縮 (Gzip)** 與 **高強度加密 (Fernet/AES)** 功能。
 
