@@ -43,10 +43,10 @@ python simple_encryptioner.py
 
 ```bash
 # 加密多個檔案
-python secure_packer.py file1.txt photo.jpg folder_name
+python simple_encryptioner.py file1.txt photo.jpg folder_name
 
 # 解密檔案
-python secure_packer.py backup_bundle.encrypt
+python simple_encryptioner.py backup_bundle.encrypt
 ```
 程式會自動偵測終端機環境，並提示您輸入密碼（輸入時不會顯示字元）。
 
@@ -59,7 +59,7 @@ python secure_packer.py backup_bundle.encrypt
 # --hidden-import: 確保 tkinterdnd2 被正確包含
 
 pip install pyinstaller
-pyinstaller --noconsole --onefile --hidden-import "tkinterdnd2" secure_packer.py
+pyinstaller --noconsole --onefile --hidden-import "tkinterdnd2" simple_encryptioner.py
 ```
 編譯後，您可以直接將檔案拖曳到 `secure_packer.exe` 上，程式會彈出獨立的密碼輸入視窗。
 
