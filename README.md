@@ -74,15 +74,15 @@ pyinstaller --noconsole --onefile --hidden-import "tkinterdnd2" simple_encryptio
     [Salt (16 bytes)] + [Fernet Encrypted Data ( Gzip( Tar( Files ) ) )]
     ```
 
-> 🛠️ Open Source Acknowledgments (開源致謝)
-> 本專案（This project）使用以下開源組件，感謝這些開發者的貢獻：
->  * Cryptography: Copyright (c) The Python Cryptographic Authority and individual contributors.
->    * License: Apache License 2.0 / BSD 3-Clause
->  * TkinterDnD2: Copyright (c) 2018 petasis / pmgagne.
->    * License: MIT License
->  * Python: Copyright (c) Python Software Foundation.
->    * License: PSF License
-> 
+🛠️ Open Source Acknowledgments (開源致謝)
+本專案（This project）使用以下開源組件，感謝這些開發者的貢獻：
+* Cryptography: Copyright (c) The Python Cryptographic Authority and individual contributors.
+  * License: Apache License 2.0 / BSD 3-Clause
+* TkinterDnD2: Copyright (c) 2018 petasis / pmgagne.
+  * License: MIT License
+* Python: Copyright (c) Python Software Foundation.
+  * License: PSF License
+
 
 
 
